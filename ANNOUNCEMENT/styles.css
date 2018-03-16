@@ -1,0 +1,152 @@
+body {
+	background: #fff   url(bg.jpg);
+	font: 11px/1.7em Verdana, Tahoma, Arial, Geneva, sans-serif;
+	color: #666666; 
+	text-align: center;
+	
+}
+#wrap {
+	max-width: 1204px;
+	margin: 0 auto;
+    border-left-color: #fff;
+    border-right-color: #fff;
+    
+}
+#content-wrap {
+	position: relative;
+	background: #fff url(content-bg.jpg) repeat-x;
+	clear: both;
+	float: left;	
+	width: 1020px;	
+	padding: 0; 			
+	margin: 0 auto;	
+	display: inline;
+	border-top: 5px solid #fff;
+	border-bottom: 1px solid #e5e5e5;
+	border-left: 1px solid #fff;
+	border-right: 1px solid #fff;
+}
+#header {
+	position: relative;
+	background: #fff url(header-bg.jpg) repeat-x;
+	width: 1204px;	
+	height: 110px;	
+	padding: 0;	
+	margin: 0 auto;
+    right: 5px;
+}
+#header h1#title_text {
+	position: absolute;
+	margin: 0; padding: 0;
+	font: normal 43px Georgia, "Times New Roman", Times, serif;
+	width: 480px;
+	height: 48px;
+    color: #fff;
+	
+	/* change the values of top and left to adjust the position of the logo*/
+	top: 20px; left: 0px;	
+}
+#header p#address_text {
+	position: absolute;
+	margin: 0; padding: 0;
+	font: normal 12px 'Trebuchet MS', Arial, Verdana, sans-serif;
+	text-transform: none;
+	color: #fff;
+    text-transform: uppercase;
+	
+	/* change the values of top and left to adjust the position of the slogan*/
+	top: 70px; left: 30px;		
+}
+#nav ul {
+	float: left;
+	list-style: none;
+	background: url(nav.jpg) repeat-x;	
+	width: 1204px;		
+	height: 45px;
+	text-transform: uppercase;
+	padding: 0;	
+	display: inline;
+}
+#nav ul li a{
+	display: inline;
+	margin: 0; padding: 0;
+    font-size: 14px;
+    display: block;
+	float: left;
+	width: auto;
+	margin: 0;
+	padding: 0 20px;
+	border-right: 1px solid #660066;
+	border-left: 1px solid #9900FF;
+	font: bold 14px/45px "Century Gothic", "Trebuchet MS", Helvetica, Arial, Geneva, sans-serif;
+	text-transform: uppercase;
+	text-decoration: none;	
+	letter-spacing: 1px;
+	color: #fff;
+}
+#nav ul li a:hover, 
+#nav ul li a:active {
+background: #003366   repeat-x;
+}
+
+#announcement_list li {
+    border: solid #2C3E50 5px;
+    background: #F2F4F4;
+    border-radius: 20px;
+    font-size: 60px;
+    text-align: left;
+    width: 1080px;
+    height: 40px;
+    padding: 50px;
+    font-size: 12px;
+    position:absolute;
+    top: 40px;
+    left: 10px;
+}
+
+
+
+#container {
+ width: 1180px;
+ height: 233px;
+ overflow: hidden;
+ margin-bottom: 2%;
+ background: white;
+ position: absolute;
+ top: 19%;
+ margin-top: 20%;
+ right: 37%;
+ margin-right: -560px;
+ border: solid #2C3E50 5px;
+}
+.photo_announcement {
+	height: 233px;
+	width: 3550px;
+	margin-bottom: 2%;
+}
+.photo_announcement {
+ height: 250px;
+ width: 3550px;
+ margin-bottom: 2%;
+}
+.first {
+ -webkit-animation: bannermove 30s linear infinite;
+}
+@keyframes "bannermove" {
+ 0% {margin-left: 0px;}
+ 100% {margin-left: -2125px;}
+}
+@-webkit-keyframes "bannermove" {
+ 0% {margin-left: 0px;}
+ 100% {margin-left: -2125px;}
+}
+.photo_announcement img {
+ -webkit-transition: all 0.5s ease;
+ transition: all 0.5s ease;
+}
+.photo_announcement img:hover {
+ -webkit-transform: scale(1.1);
+ transform: scale(1.1);
+ cursor: pointer;
+ -webkit-box-shadow: 0px 3px 5px rgba(0,0,0,0.2);
+}
