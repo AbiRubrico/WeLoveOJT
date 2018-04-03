@@ -1,0 +1,197 @@
+@font-face{
+	font-family: Lib;
+	src: url('fonts/suit.TTF');
+}
+@font-face{
+    font-family: zekt;
+    src: url('fonts/zekton rg.ttf');
+}
+html{
+    height: 100%;
+    overflow: hidden;
+}
+#wrapper{
+    text-align: center;
+    margin: 0 auto;
+    width: 1080px;
+    padding: 110px;
+}
+
+body {
+    color: #FFF;
+    margin: 0;
+    padding: 0;
+    perspective: 1px;
+    transform-style: preserve-3d;
+    height: 100%;
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+p{
+    font-family: Lib, Helvetica;
+    font-size: 24px;
+}
+#topNav{
+	background-color: transparent;
+	position: absolute;
+    top: 0;
+    padding: 0;
+	width: 100%;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+#topNav a{
+	float: left;
+    display: block;
+	color: #000000;
+    text-align: center;
+	padding: 15px 18px;
+	font-family: Lib, Helvetica;
+	font-size: 32px;
+    height: 80px;
+	text-decoration: none;
+    box-shadow: inset 0 0 10px rgba(255,255,255,0.1);
+}
+#topNav a:hover{
+	color: #B4B2B2;
+}
+
+#topNav a:nth-child(1){
+	background-color: rgba(0,0,0,0.1);
+	padding: 15px 18px;
+	font-family: zekt, Helvetica;
+	font-size: 34px;
+	text-decoration: none;
+	width: 360px;
+	background-color: #9FA5FF;
+	height: 80px;
+}
+#topNav a:nth-child(3){
+	float: left;
+	color: #B4B2B2;
+	padding: 15px 18px;
+	font-family: Lib, Helvetica;
+	font-size: 32px;
+	text-decoration: none;
+}
+#topNav a:nth-child(1):hover{
+	text-shadow: 0 0 20px #020A7E, 0 0 25px #FFFFFF, 0 0 5px #020A7E;
+	background-color: #9FA5FF;
+}
+
+.parallax{
+    background: url(school.jpg) no-repeat center;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 700px;
+    position: relative;
+    top: 110px;
+}
+
+#MV{
+    background-color: #FFFFFF;
+    opacity: 0.5;
+    width: 300px;
+    height: 700px;
+    position: absolute;
+    top: 110px;
+    left: 360px;
+    padding: 50px;
+    padding-top: 80px;
+}
+#MVfont{
+    color: #202020;
+    font-size: 30px;
+    font-family: Lib, Helvetica;
+    text-align: center;
+}
+#announce1{
+    background-color: #FBE4E4;
+    position: relative;
+    top: 10px;
+    height: 700px;
+    width: 1200px;
+    color: #474545;
+}
+#p_announce1{
+    font-size: 36px;
+}
+#aPic1{
+    background-image: url(announcement1.jpg);
+    position: absolute;
+    height: 660px;
+    width: 480px;
+    background-size: contain;
+    padding: 20px;
+}
+#a_wrap1{
+    position: absolute;
+    left: 520px;
+    width: 630px;
+    height: auto;
+    padding: 25px;
+}
+#LinkA1{
+    font-family: Lib, Helvetica;
+    font-size: 36px;
+    text-decoration: none;
+}
+#LinkA1 a:hover{
+    color: #FA04E4;
+}
+#announce2{
+    background-color: #DDE3FD;
+    position: relative;
+    top: 10px;
+    height: 400px;
+    width: 1200px;
+    color: #474545;
+}
+#p_announce2{
+    font-size: 36px;
+}
+#aPic2{
+    background-image: url(announcement2.jpg);
+    position: absolute;
+    top: 1520px;
+    left: 1040px;
+    height: 660px;
+    width: 480px;
+    background-size: contain;
+    padding: 20px;
+}
+#a_wrap2{
+    position: absolute;
+    width: 630px;
+    height: auto;
+    padding: 25px;
+}
+#announce3{
+    background-color: #C7B8E3;
+    position: relative;
+    top: 300px;
+    left: 677px;
+    height: 700px;
+    width: 520px;
+    color: #474545;
+}
+#p_announce3{
+    font-size: 36px;
+}
+#aPic3{
+    background-image: url(announcement3.png);
+    position: absolute;
+    top: 1920px;
+    left: 520px;
+    height: 580px;
+    width: 480px;
+    background-size: contain;
+    padding: 20px;
+}
+#a_wrap3{
+    position: absolute;
+    width: 470px;
+    height: auto;
+    padding: 25px;
+}
